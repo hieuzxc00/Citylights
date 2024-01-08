@@ -1,0 +1,100 @@
+/*==========================================================================*/
+/*                              H E A D E R                                 */
+/*==========================================================================*/
+
+.header {
+    max-width: 1950px;
+    padding: 22px 50px 22px 40px;
+    width: calc(100% + 1px);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 35;
+    animation: inactive-header .4s linear;
+    &.active {
+        background: rgba($color: #292929, $alpha: 0.9);
+        animation: active-header .6s;
+    }
+
+    @keyframes active-header {
+        0% {
+            transform: translate(-50%, -100%);
+        }
+        100% {
+            transform: translate(-50%, 0);
+        }
+    }
+
+    @keyframes inactive-header {
+        0% {
+            opacity: 0.6;
+            transform: translate(-50%, 20%);
+        }
+        100% {
+            opacity: 1;
+            transform: translate(-50%, 0);
+        }
+    }
+    
+    &__bar {
+        padding: 0 22px;
+        display: flex;
+        column-gap: 21px;
+        p {
+            display: flex;
+            align-items: center;
+        }
+    }
+    &__social {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        &-item {
+            img {
+                width: 24px;
+            }
+        }
+    }
+    &__tel {
+        margin-left: 38px;
+        padding-left: 30px;
+        @include text(24px, var(--font-garamond), 400, var(--color-white), none);
+        line-height: 1.1em;
+        letter-spacing: 0.08em;
+        text-decoration: none;
+        background: url(../images/freedial_icon.png) 0 center/20px 13px no-repeat;
+    }
+
+    &__contact {
+        margin-right: 28px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width: 126px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1em;
+    }
+}
+
+.open-nav {
+    .header {
+        background: none;
+        &__logo, &__social, &__bar p{
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+}
+
+h1 {
+    a {
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,0 +1,634 @@
+<!Doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <!-- FAVICON -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" media="all" href="./css/slick.css" />
+    <link rel="stylesheet" media="all" href="./css/slick-theme.css" />
+    <link rel="stylesheet" media="all" href="./css/styles.css" />
+    <link rel="stylesheet" media="all" href="./css/responsive.css" />
+    <link rel="stylesheet" media="all" href="./css/under.css" />
+    <link rel="stylesheet" media="all" href="./css/under_responsive.css" />
+    <!-- Google Analytics start -->
+    <!-- Google Analytics end -->
+</head>
+
+<body id="" class="under">
+    <div id="wrapper">
+        <header class="header">
+            <h1 class="header__logo"><a href="https://www.citylights.estate/"><img src="./images/site_logo.svg" alt="平安コーポレーションは、三重県で理想の注文住宅や新築一戸建てを建てられる会社です。" width="344" height="35"></a></h1>
+            <div class="header__bar">
+                <ul class="header__social pc">
+                    <li class="header__social-item">
+                        <a href="https://www.instagram.com/sacasso_heian/?utm_source=ig_profile_share&igshid=1j3en5kr08agi" target="_blank">
+                            <img src="./images/ins_icon.png" alt="Instagram" width="48" height="48">
+                        </a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="https://page.line.me/weu6068t?openQrModal=true" target="_blank">
+                            <img src="./images/line_icon.png" alt="Line" width="64" height="64">
+                        </a>
+                    </li>
+                </ul>
+                <p class="mb0 pc">
+                    <a href="tel:0120-265-154" class="header__tel sweetlink">0120-265-154</a>
+                </p>
+                <p class="mb0 pc">
+                    <a href="./contact/" class="header__contact btn">Contact</a>
+                </p>
+                <div class="button">
+                    <svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                      <g>
+                        <line x1="0" y1="13" x2="34" y2="13" stroke-width="2" />
+                        <line x1="0" y1="21" x2="34" y2="21" stroke-width="2" />
+                      </g>
+                      
+                      <g>
+                        <line x1="0" y1="17" x2="34" y2="17" stroke-width="2" />
+                        <line x1="0" y1="17" x2="34" y2="17" stroke-width="2" />
+                      </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="nav-menu menu">
+                <div class="inner">
+                    <div class="menu__top">
+                        <p class="menu__top-logo mb0">
+                            <a href="https://www.citylights.estate/"><img src="./images/site_logo.svg" alt="Heian Corporation" width="344" height="35"></a>
+                        </p>
+                        <p class="menu__top-contact mb0">
+                            <a href="tel:0120-265-154" class="tel sweetlink">0120-265-154</a>
+                            <span class="time">電話受付時間：9:00～18:00　定休日：水曜日</span>
+                            <span class="address">三重県名張市鴻之台4番町60</span>
+                        </p>
+                        <ul class="menu__top-social">
+                            <li class="item">
+                                <a href="https://page.line.me/weu6068t?openQrModal=true" target="_blank">
+                                    <img src="./images/line_icon.png" alt="Line" width="64" height="64">
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="https://www.instagram.com/sacasso_heian/?utm_source=ig_profile_share&igshid=1j3en5kr08agi" target="_blank">
+                                    <img src="./images/ins_icon.png" alt="Instagram" width="48" height="48">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="menu__bottom">
+                            <ul class="nav nav__top">
+                                <li class="nav__item"><a href="https://www.citylights.estate/">Top</a></li>
+                                <li class="nav__item has-sub">
+                                    <span>家づくりについて</span>
+                                    <ul class="nav__sub col-2">
+                                        <li class="nav__sub-item"><a href="./house/index.html">コンセプト</a></li>
+                                        <li class="nav__sub-item"><a href="./house/function.html">機能性</a></li>
+                                        <li class="nav__sub-item"><a href="./house/air.html">全館空調</a></li>
+                                        <li class="nav__sub-item"><a href="./house/design.html">デザイン性</a></li>
+                                        <li class="nav__sub-item"><a href="./house/cost.html">コストパフォーマンス</a></li>
+                                        <li class="nav__sub-item"><a href="./house/after.html">保証とアフターメンテナンス</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav__item has-sub">
+                                    <span>ラインナップ</span>   
+                                    <ul class="nav__sub col-2"> 
+                                        <li class="nav__sub-item"><a href="./lineup/index.html">【FREEDIA】</a></li>
+                                        <li class="nav__sub-item"><a href="./lineup/durability.html">【耐久の家】</a></li>
+                                        <li class="nav__sub-item"><a href="./lineup/simple.html">【シンプルな平屋】</a></li>
+                                        <li class="nav__sub-item"><a href="./lineup/garage.html">【ビルトインガレージの家】</a></li>
+                                        <li class="nav__sub-item"><a href="./lineup/insulation.html">【断熱の家】</a></li>
+                                        <li class="nav__sub-item"><a href="./lineup/freedom.html">【自由な箱の家（MY BOX）】</a></li>
+                                        <li class="nav__sub-item"><a href="./lineup/zeh.html">【未来を創るZEHの家】</a></li>
+                                        <li class="nav__sub-item"><a href="./lineup/tbox.html">【T-BOX】</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav__item has-sub">
+                                    <span>施工事例</span>
+                                    <ul class="nav__sub col-2">
+                                        <li class="nav__sub-item"><a href="./case/">施工事例</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav nav__bottom">
+                                <li class="nav__item has-sub">
+                                    <span>分譲地・土地情報</span>
+                                    <ul class="nav__sub">
+                                        <li class="nav__sub-item"><a href="./land/">分譲地・土地情報</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav__item has-sub">
+                                    <span>会社案内</span>
+                                    <ul class="nav__sub">
+                                        <li class="nav__sub-item"><a href="./company/index.html">会社概要・店舗紹介・スタッフ紹介</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav__item has-sub">
+                                    <span>各種お問い合わせ</span>
+                                    <ul class="nav__sub">
+                                        <li class="nav__sub-item"><a href="./document/">資料請求</a></li>
+                                        <li class="nav__sub-item"><a href="./event/">各種イベントへのご参加</a></li>
+                                        <li class="nav__sub-item"><a href="./contact/">無料相談・お問い合わせ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav__item has-sub">
+                                    <span>各種お知らせ</span>
+                                    <ul class="nav__sub">
+                                        <li class="nav__sub-item"><a href="./info/">お知らせ・スタッフブログ・イベント情報</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end <header>-->
+        <main>
+            <div id="top_info">
+                <div class="inner">
+                    <div class="udr-box-h2">
+                        <h2 class="udr-h2-jp">H2タイトルが入ります</h2>
+                        <p class="udr-h2-en">H2 Tittle H2 Tittle H2 Tittle H2 Tittle</p>
+                    </div>
+                </div>
+            </div>
+            <!-- #top_info end -->
+            <div id="topic_path">
+                <div class="inner">
+                    <ul>
+                        <li><a href="#">ホーム</a></li>
+                        <li>h2ミーダミーダミーダ</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- #topic_path end -->
+            <div id="content">
+                <div class="inner">
+                    <section class="udr-section-h3">
+                        <div class="udr-box-h3">
+                            <p class="udr-h3-en">H3 TITTLE</p>
+                            <h3 class="udr-h3-jp">H3 タイトルが入ります</h3>
+                        </div>
+                        <p class="txt">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            <br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            <br>テキストが入ります。テキストが入ります。テキストが入ります。
+                        </p>
+                    </section>
+                    <section class="udr-section-h4">
+                        <div class="udr-box-h4">
+                            <h4 class="udr-h4">タイトルが入ります</h4>
+                            <p class="img">
+                                <img src="images/udr-dummy.jpg" alt="">
+                            </p>
+                            <p class="txt">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                <br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                <br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            </p>
+                        </div>
+                    </section>
+                    <section class="udr-section-h4 udr-section-h402">
+                        <div class="udr-box-h4">
+                            <h4 class="udr-h4">タイトルが入ります</h4>
+                            <p class="img">
+                                <img src="images/udr-dummy.jpg" alt="">
+                            </p>
+                            <p class="txt">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                <br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                <br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            </p>
+                            <div class="udr-box-h5">
+                                <h5 class="udr-h5">テキストが入ります。テキストが入ります。</h5>
+                                <p class="txt">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                    <br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="udr-fx-list">
+                            <ul class="udr-list">
+                                <li>
+                                    テキストが入ります。テキストが入ります。
+                                </li>
+                                <li>
+                                    テキストが入ります。テキストが入ります。
+                                </li>
+                                <li>
+                                    テキストが入ります。テキストが入ります。
+                                </li>
+                                <li>
+                                    テキストが入ります。テキストが入ります。
+                                </li>
+                            </ul>
+                            <ul class="udr-list udr-list-check">
+                                <li>
+                                    テキストが入ります。テキストが入ります。
+                                </li>
+                                <li>
+                                    テキストが入ります。テキストが入ります。
+                                </li>
+                                <li>
+                                    テキストが入ります。テキストが入ります。
+                                </li>
+                                <li>
+                                    テキストが入ります。テキストが入ります。
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="udr-tbl-scroll">
+                            <p class="tbl-note sp">※表は左右にスクロールして確認することができます</p>
+                            <div class="udr-tbl">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th class="w-tbl"></th>
+                                            <th>タイトルが入ります</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th class="bg">タイトルが入ります</th>
+                                            <td>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="bg">タイトルが入ります</th>
+                                            <td>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="bg">タイトルが入ります</th>
+                                            <td>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="bg">タイトルが入ります</th>
+                                            <td>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="udr-tbl udr-tbl-bl">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th class="bg">タイトルが入ります</th>
+                                        <td>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="bg">タイトルが入ります</th>
+                                        <td>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="bg">タイトルが入ります</th>
+                                        <td>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="bg">タイトルが入ります</th>
+                                        <td>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                    <section class="udr-section-h4 no-img">
+                        <div class="udr-box-h4">
+                            <h4 class="udr-h4">タイトルが入ります</h4>
+                            <p class="txt">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                <br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                <br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                            </p>
+                            <div class="udr-box-h5">
+                                <h5 class="udr-h5">テキストが入ります。テキストが入ります。</h5>
+                                <p class="txt">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。<br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                    <br>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="ud-fx-land">
+                        <div class="ud-thumb-list">
+                            <ul class="ud-img-galley">
+                                <li>
+                                    <img src="images/event_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ud-thumb-show">
+                            <ul class="ud-img-show">
+                                <li>
+                                    <img src="images/event_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_03.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/event_01.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/udr-dummy.jpg" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #content end -->
+        </main>
+        <!-- end <main> -->
+        <footer class="footer menu">
+            <div class="inner">
+                <div class="footer__top menu__top">
+                    <p class="footer__top-logo menu__top-logo mb0">
+                        <a href="https://www.citylights.estate/"><img src="./images/site_logo.svg" alt="Heian Corporation" width="344" height="35" loading="lazy"></a>
+                    </p>
+                    <p class="footer__top-contact menu__top-contact mb0">
+                        <a href="tel:0120-265-154" class="tel sweetlink">0120-265-154</a>
+                        <span class="time">電話受付時間：9:00～18:00 <br>定休日：水曜日</span>
+                        <span class="address">三重県名張市鴻之台4番町60</span>
+                    </p>
+                    <ul class="footer__top-social menu__top-social pc">
+                        <li class="item">
+                            <a href="https://page.line.me/weu6068t?openQrModal=true" target="_blank">
+                                <img src="./images/line_icon.png" alt="Line" width="64" height="64" loading="lazy">
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="https://www.instagram.com/sacasso_heian/?utm_source=ig_profile_share&igshid=1j3en5kr08agi" target="_blank">
+                                <img src="./images/ins_icon.png" alt="Instagram" width="48" height="48" loading="lazy">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="footer__bottom menu__bottom pc">
+                        <ul class="nav nav__top">
+                            <li class="nav__item"><a href="https://www.citylights.estate/">Top</a></li>
+                            <li class="nav__item">
+                                <span>家づくりについて</span>
+                                <ul class="nav__sub col-2">
+                                    <li class="nav__sub-item"><a href="./house/index.html">コンセプト</a></li>
+                                    <li class="nav__sub-item"><a href="./house/function.html">機能性</a></li>
+                                    <li class="nav__sub-item"><a href="./house/air.html">全館空調</a></li>
+                                    <li class="nav__sub-item"><a href="./house/design.html">デザイン性</a></li>
+                                    <li class="nav__sub-item"><a href="./house/cost.html">コストパフォーマンス</a></li>
+                                    <li class="nav__sub-item"><a href="./house/after.html">保証とアフターメンテナンス</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <span>ラインナップ</span>   
+                                <ul class="nav__sub col-2"> 
+                                    <li class="nav__sub-item"><a href="./lineup/index.html">【FREEDIA】</a></li>
+                                    <li class="nav__sub-item"><a href="./lineup/durability.html">【耐久の家】</a></li>
+                                    <li class="nav__sub-item"><a href="./lineup/simple.html">【シンプルな平屋】</a></li>
+                                    <li class="nav__sub-item"><a href="./lineup/garage.html">【ビルトインガレージの家】</a></li>
+                                    <li class="nav__sub-item"><a href="./lineup/insulation.html">【断熱の家】</a></li>
+                                    <li class="nav__sub-item"><a href="./lineup/freedom.html">【自由な箱の家（MY BOX）】</a></li>
+                                    <li class="nav__sub-item"><a href="./lineup/zeh.html">【未来を創るZEHの家】</a></li>
+                                    <li class="nav__sub-item"><a href="./lineup/tbox.html">【T-BOX】</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <span>施工事例</span>
+                                <ul class="nav__sub col-2">
+                                    <li class="nav__sub-item"><a href="./case/">施工事例</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav nav__bottom">
+                            <li class="nav__item">
+                                <span>分譲地・土地情報</span>
+                                <ul class="nav__sub">
+                                    <li class="nav__sub-item"><a href="./land/">分譲地・土地情報</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <span>会社案内</span>
+                                <ul class="nav__sub">
+                                    <li class="nav__sub-item"><a href="./company/index.html">会社概要・店舗紹介・スタッフ紹介</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <span>各種お問い合わせ</span>
+                                <ul class="nav__sub">
+                                    <li class="nav__sub-item"><a href="./document/">資料請求</a></li>
+                                    <li class="nav__sub-item"><a href="./event/">各種イベントへのご参加</a></li>
+                                    <li class="nav__sub-item"><a href="./contact/">無料相談・お問い合わせ</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <span>各種お知らせ</span>
+                                <ul class="nav__sub">
+                                    <li class="nav__sub-item"><a href="./info/">お知らせ・スタッフブログ・イベント情報</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                </div>
+                <hr class="pc">
+                <address>Copyright &copy; Heian Corporation<br> All Rights Reserved</address>
+            </div>
+
+            
+            <div class="to-top"><a href="#wrapper"></a></div>
+            <ul class="btn__fixed">
+                <li class="btn__fixed-tel">
+                    <a href="tel:0120-265-154" class="sweetlink">0120-265-154</a>
+                </li>
+                <li class="btn__fixed-item" data-aos="fade-left" data-aos-offset="0" data-aos-duration="400">
+                    <a href="./contact/" class="fixed__mail">
+                        <img src="./images/mail_icon.png" alt="無料相談・お問い合わせ" width="52" height="36">
+                        <span>無料相談・<br>お問い合わせ</span>
+                    </a>
+                </li>
+                <li class="btn__fixed-item" data-aos="fade-left" data-aos-offset="0" data-aos-duration="400">
+                    <a href="./event/" class="fixed__event">
+                        <img src="./images/calendar_icon.png" alt="各種イベント" width="70" height="64">
+                        <span>各種イベント</span>
+                    </a>
+                </li>
+                <li class="btn__fixed-item" data-aos="fade-left" data-aos-offset="-200" data-aos-duration="400">
+                    <a href="./document/" class="fixed__info">
+                        <img src="./images/info_icon.png" alt="資料請求" width="58" height="76">
+                        <span>資料請求</span>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <!-- end <footer> -->
+    </div>
+    <!-- end #wrapper -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/sweetlink.js"></script>
+    <script src="./js/common.js"></script>
+    <script>
+        if ($('.ud-fx-land').length > 0) {
+            $('.ud-img-show').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                centerMode: true,
+                variableWidth: true,
+                asNavFor: '.ud-img-galley'
+            });
+            $('.ud-img-galley').slick({
+                slidesToShow: 20,
+                slidesToScroll: 1,
+                asNavFor: '.ud-img-show',
+                focusOnSelect: true,
+                responsive: [{
+                    breakpoint: 751,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                    }
+                }, {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+                }, {
+                    breakpoint: 375,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                }]
+            });
+        }
+    </script>
+</body>
+
+</html>

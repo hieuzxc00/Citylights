@@ -1,0 +1,47 @@
+/*==========================================================================*/
+/*                         M A I N   V I S U A L                            */
+/*==========================================================================*/
+
+.visual {
+    overflow: hidden;
+    position: relative;
+    &__slider {
+        &-item {
+            .slider__img {
+                position: relative;
+                width: 100%;
+                padding-top: 50.4466%;
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+h2.visual__title {
+    padding: 0 15px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, calc(-50% - 35px));
+    @include text(50px, var(--font-ryu-r), 400, var(--color-white), uppercase);
+    letter-spacing: 0.13em;
+    line-height: 1.25em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    span {
+        display: block;
+        @include text(var(--fs16), var(--font-family), 400, var(--color-white), none);
+        letter-spacing: 0.275em;
+        line-height: 1.3em;
+    }
+}

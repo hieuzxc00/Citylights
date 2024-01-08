@@ -1,0 +1,301 @@
+/*==========================================================================*/
+
+
+/*                     H O V E R    &    P C    O N L Y                     */
+
+
+/*==========================================================================*/
+
+@media screen and (min-width: 751px) {
+    #lightboxOverlay,
+    #lightbox {
+        min-width: var(--content-width) !important;
+        width: 100% !important;
+    }
+    .header.active {
+        .button:hover {
+            background: rgba($color: #ffffff, $alpha: 0.8);
+            svg {
+                stroke: var(--color-primary);
+            }
+        }
+    }
+    
+    .header {
+        .button:hover {
+            background: rgba($color: #292929, $alpha: 0.4);
+        }
+    }
+    .sp {
+        display: none !important;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    .to-top a:hover,
+    .land__navi-item:hover {
+        opacity: 0.7;
+    }
+    .lineup__anchor-link:hover {
+        opacity: 0.7;
+        &::after {
+            width: 100%;
+        }
+    }
+    .btn {
+        &:hover {
+            border-color: var(--color-primary);
+            color: var(--color-primary);
+            background: var(--color-white);
+            // &:before {
+            //   transition: left 500ms ease;
+            //   left: 110%;
+            // }
+        }
+        &.black:hover {
+            color: var(--color-white);
+            background: var(--color-primary);
+        }
+    }
+    .news__list-item {
+        a:hover {
+            .title {
+                text-decoration: underline;
+            }
+        }
+    }
+    .event__list-item:hover {
+        opacity: 0.8;
+        .item__img {
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+    .work__list-item:hover a {
+        opacity: 0.8;
+        .item__thumb {
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+    .prj__list-item:hover {
+        opacity: 0.8;
+        .prj__img {
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+    .land__list-item:hover {
+        opacity: 0.8;
+        .item__img {
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+    .event__navi-item:hover {
+        opacity: 0.6;
+    }
+    .menu {
+        .nav__item {
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .btn__fixed-item:hover {
+        opacity: 0.8 !important;
+    }
+}
+
+
+/* END screen-min:751px */
+
+@media screen and (min-width: 751px) and (max-width: 1500px) {
+    .up-lap {
+        display: none;
+    }
+    
+    .lineup {
+        .inner-fluid {
+            width: 1310px;
+        }
+    }
+}
+
+/* END screen-min:751px && screen-max:1500px */
+
+@media screen and (min-width: 1440px) and (max-width: 1560px) {
+    .house {
+        &__list {
+            &-item {
+                .item__content {
+                    padding: 40px 10px;
+                    &-desc {
+                        font-size: 15px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+
+@media screen and (min-width: 751px) and (max-width: 1565px) {
+    .footer {
+        .inner {
+            padding: 0 50px;
+        }
+    }
+
+    .event {
+        &__navi {
+            &-item {
+                &.next {
+                    right: -25px;
+                    transform: rotateY(180deg) scale(0.6);
+                }
+                &.prev {
+                    left: -25px;
+                    transform: scale(0.6);
+                }
+            }
+        }
+    }
+
+    .land {
+        .inner-fluid {
+            &::after {
+                left: 100px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1565px) {
+    .event {
+        &__list {
+            .slick-slide {
+                margin: 0 20px;
+            }
+    
+            /* the parent */
+            .slick-list {
+                margin: 0;
+            }
+        }
+    }
+    .land {
+        &__navi {
+            &-item {
+                &.next {
+                    transform: rotateY(180deg) scale(0.6);
+                }
+                &.prev {
+                    transform: scale(0.6);
+                }
+            }
+        }
+    }
+    .btn__fixed {
+        row-gap: 15px;
+        &-item {
+            a {
+                width: 42px;
+                padding: 15px 10px;
+            }
+        }
+    }
+    .to-top.show {
+        transform: scale(0.7);
+        transform-origin: bottom right;
+        bottom: 10px;
+        right: 50px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1440px) {
+    .nav-menu {
+        .menu__top {
+            padding: 30px 0;
+        }
+        .menu__bottom {
+            padding-bottom: 30px;
+        }
+    }
+
+    .news {
+        .inner-fluid {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+
+    .lineup {
+        .prj {
+            &__img {
+                margin-bottom: 15px;
+            }
+            &__title {
+                font-size: 22px;
+            }
+            &__type {
+                margin-bottom: 10px;
+            }
+            &__list {
+                &-item {
+                    flex-basis: calc(25% - 17.5px);
+                }
+            }
+        }
+    }
+    .info {
+        &__desc {
+            margin-bottom: 45px;
+        }
+    }
+    .house {
+        &__list {
+            &-item {
+                .item__content {
+                    &-title {
+                        font-size: min(4.5vw, 22px);
+                    }
+                    &-desc {
+                        font-size: min(3.5vw, 14px);
+                    }
+                }
+            }
+        }
+    }
+
+    .customer {
+        &__img {
+            margin-left: 0;
+        }
+    }
+
+    .btn__fixed-item a span {
+        font-size: 16px;
+    }
+
+    .land__navi-item {
+        &.next {
+            right: 25px;
+        }
+        &.prev {
+            left: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .concept__thumbnail {
+        width: 750px;
+    }
+}
