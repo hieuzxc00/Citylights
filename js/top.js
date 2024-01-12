@@ -2,6 +2,27 @@
 $(document).ready(function() {
     "use strict";
 
+    Splitting();
+    let txt = $(".visual__title-main .word .char");
+    let txtSub = $(".visual__title-sub .word .char");
+    let tl = gsap.timeline();
+
+    gsap.set(txt, {opacity:1, translateY:0});
+
+    tl.from(txt, {
+        opacity: 0,
+        translateY: "1em",
+        duration: 1,
+        stagger: 0.1,
+        delay: 0.5,
+    })
+    .from(txtSub, {
+        opacity: 0,
+        translateY: "1em",
+        duration: 0.5,
+        stagger: 0.05,
+    }, "-=1.25");
+    
 });
 
 
@@ -236,14 +257,6 @@ $(window).bind('load', function() {
         });
     }
     /*============== END - SLIDER ================*/
-
-    // EVENT CAROUSEL
-
-    /*============== END - EVENT CAROUSEL ================*/
-
-    // EVENT CAROUSEL
-
-    /*============== END - EVENT CAROUSEL ================*/
 
     // CONTENT LOAD ANIMATION
     AOS.init({

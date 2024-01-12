@@ -224,9 +224,12 @@
         right: 10px !important;
     }
 
-    h2.visual__title {
-        font-size: min(5.5vw, 38px);
-        span {
+    .visual__title {
+        &-main {
+            font-size: min(5.5vw, 38px);
+        }
+        
+        &-sub {
             font-size: min(2.6vw, 12px);
         }
     }

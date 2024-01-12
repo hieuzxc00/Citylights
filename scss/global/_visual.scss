@@ -24,21 +24,23 @@
     }
 }
 
-h2.visual__title {
+.visual__title {
     padding: 0 15px;
     width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, calc(-50% - 35px));
-    @include text(50px, var(--font-ryu-r), 400, var(--color-white), uppercase);
-    letter-spacing: 0.13em;
-    line-height: 1.25em;
     text-align: center;
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    span {
+    &-main {
+        @include text(50px, var(--font-ryu-r), 400, var(--color-white), uppercase);
+        letter-spacing: 0.13em;
+        line-height: 1.25em;
+    }
+    &-sub {
         display: block;
         @include text(var(--fs16), var(--font-family), 400, var(--color-white), none);
         letter-spacing: 0.275em;
