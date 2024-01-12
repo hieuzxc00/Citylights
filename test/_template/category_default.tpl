@@ -213,7 +213,7 @@
                                 }
                                 $urls = explode("/", $$src);
                                 if (end($urls) == "") {
-                                    $$src = "../images/udr-dummy.jpg";
+                                    $$src = "../../images/udr-dummy.jpg";
                                 }
                                 ?>
                                 <li>
