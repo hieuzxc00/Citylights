@@ -107,96 +107,96 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            
         </header>
         <div class="nav-menu menu">
-                <div class="inner">
-                    <div class="menu__top">
-                        <p class="menu__top-logo mb0">
-                            <a href="https://www.citylights.estate/"><img src="../images/site_logo.svg" alt="Heian Corporation" width="344" height="35"></a>
-                        </p>
-                        <p class="menu__top-contact mb0">
-                            <a href="tel:0120-265-154" class="tel sweetlink">0120-265-154</a>
-                            <span class="time">電話受付時間：9:00～18:00　定休日：水曜日</span>
-                            <span class="address">三重県名張市鴻之台4番町60</span>
-                        </p>
-                        <ul class="menu__top-social">
-                            <li class="item">
-                                <a href="https://page.line.me/weu6068t?openQrModal=true" target="_blank">
-                                    <img src="../images/line_icon.png" alt="Line" width="64" height="64">
-                                </a>
+            <div class="inner">
+                <div class="menu__top">
+                    <p class="menu__top-logo mb0">
+                        <a href="https://www.citylights.estate/"><img src="../images/site_logo.svg" alt="Heian Corporation" width="344" height="35"></a>
+                    </p>
+                    <p class="menu__top-contact mb0">
+                        <a href="tel:0120-265-154" class="tel sweetlink">0120-265-154</a>
+                        <span class="time">電話受付時間：9:00～18:00　定休日：水曜日</span>
+                        <span class="address">三重県名張市鴻之台4番町60</span>
+                    </p>
+                    <ul class="menu__top-social">
+                        <li class="item">
+                            <a href="https://page.line.me/weu6068t?openQrModal=true" target="_blank">
+                                <img src="../images/line_icon.png" alt="Line" width="64" height="64">
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="https://www.instagram.com/sacasso_heian/?utm_source=ig_profile_share&igshid=1j3en5kr08agi" target="_blank">
+                                <img src="../images/ins_icon.png" alt="Instagram" width="48" height="48">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="menu__bottom">
+                        <ul class="nav nav__top">
+                            <li class="nav__item"><a href="https://www.citylights.estate/">Top</a></li>
+                            <li class="nav__item has-sub">
+                                <span>家づくりについて</span>
+                                <ul class="nav__sub col-2 small-gap">
+                                    <li class="nav__sub-item"><a href="../house/">コンセプト</a></li>
+                                    <li class="nav__sub-item"><a href="../house/function.html">機能性</a></li>
+                                    <li class="nav__sub-item"><a href="../house/air.html">全館空調</a></li>
+                                    <li class="nav__sub-item"><a href="../house/design.html">デザイン性</a></li>
+                                    <li class="nav__sub-item"><a href="../house/cost.html">コストパフォーマンス</a></li>
+                                    <li class="nav__sub-item"><a href="../house/after.html">保証とアフターメンテナンス</a></li>
+                                </ul>
                             </li>
-                            <li class="item">
-                                <a href="https://www.instagram.com/sacasso_heian/?utm_source=ig_profile_share&igshid=1j3en5kr08agi" target="_blank">
-                                    <img src="../images/ins_icon.png" alt="Instagram" width="48" height="48">
-                                </a>
+                            <li class="nav__item has-sub">
+                                <span>ラインナップ</span>   
+                                <ul class="nav__sub col-2"> 
+                                    <li class="nav__sub-item"><a href="../lineup/">【FREEDIA】</a></li>
+                                    <li class="nav__sub-item"><a href="../lineup/durability.html">【耐久の家】</a></li>
+                                    <li class="nav__sub-item"><a href="../lineup/simple.html">【シンプルな平屋】</a></li>
+                                    <li class="nav__sub-item"><a href="../lineup/garage.html">【ビルトインガレージの家】</a></li>
+                                    <li class="nav__sub-item"><a href="../lineup/insulation.html">【断熱の家】</a></li>
+                                    <li class="nav__sub-item"><a href="../lineup/freedom.html">【自由な箱の家（MY BOX）】</a></li>
+                                    <li class="nav__sub-item"><a href="../lineup/zeh.html">【未来を創るZEHの家】</a></li>
+                                    <li class="nav__sub-item"><a href="../lineup/tbox.html">【T-BOX】</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item has-sub">
+                                <span>施工事例</span>
+                                <ul class="nav__sub col-2">
+                                    <li class="nav__sub-item"><a href="../case/">施工事例</a></li>
+                                </ul>
                             </li>
                         </ul>
-                    </div>
-                    <hr>
-                    <div class="menu__bottom">
-                            <ul class="nav nav__top">
-                                <li class="nav__item"><a href="https://www.citylights.estate/">Top</a></li>
-                                <li class="nav__item has-sub">
-                                    <span>家づくりについて</span>
-                                    <ul class="nav__sub col-2 small-gap">
-                                        <li class="nav__sub-item"><a href="../house/">コンセプト</a></li>
-                                        <li class="nav__sub-item"><a href="../house/function.html">機能性</a></li>
-                                        <li class="nav__sub-item"><a href="../house/air.html">全館空調</a></li>
-                                        <li class="nav__sub-item"><a href="../house/design.html">デザイン性</a></li>
-                                        <li class="nav__sub-item"><a href="../house/cost.html">コストパフォーマンス</a></li>
-                                        <li class="nav__sub-item"><a href="../house/after.html">保証とアフターメンテナンス</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav__item has-sub">
-                                    <span>ラインナップ</span>   
-                                    <ul class="nav__sub col-2"> 
-                                        <li class="nav__sub-item"><a href="../lineup/">【FREEDIA】</a></li>
-                                        <li class="nav__sub-item"><a href="../lineup/durability.html">【耐久の家】</a></li>
-                                        <li class="nav__sub-item"><a href="../lineup/simple.html">【シンプルな平屋】</a></li>
-                                        <li class="nav__sub-item"><a href="../lineup/garage.html">【ビルトインガレージの家】</a></li>
-                                        <li class="nav__sub-item"><a href="../lineup/insulation.html">【断熱の家】</a></li>
-                                        <li class="nav__sub-item"><a href="../lineup/freedom.html">【自由な箱の家（MY BOX）】</a></li>
-                                        <li class="nav__sub-item"><a href="../lineup/zeh.html">【未来を創るZEHの家】</a></li>
-                                        <li class="nav__sub-item"><a href="../lineup/tbox.html">【T-BOX】</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav__item has-sub">
-                                    <span>施工事例</span>
-                                    <ul class="nav__sub col-2">
-                                        <li class="nav__sub-item"><a href="../case/">施工事例</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="nav nav__bottom">
-                                <li class="nav__item has-sub">
-                                    <span>分譲地・土地情報</span>
-                                    <ul class="nav__sub">
-                                        <li class="nav__sub-item"><a href="../land/">分譲地・土地情報</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav__item has-sub">
-                                    <span>会社案内</span>
-                                    <ul class="nav__sub">
-                                        <li class="nav__sub-item"><a href="../company/">会社概要・店舗紹介・スタッフ紹介</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav__item has-sub">
-                                    <span>各種お問い合わせ</span>
-                                    <ul class="nav__sub">
-                                        <li class="nav__sub-item"><a href="../document/">資料請求</a></li>
-                                        <li class="nav__sub-item"><a href="../event/">各種イベントへのご参加</a></li>
-                                        <li class="nav__sub-item"><a href="../contact/">無料相談・お問い合わせ</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav__item has-sub">
-                                    <span>各種お知らせ</span>
-                                    <ul class="nav__sub">
-                                <li class="nav__sub-item"><a href="../info/cate_1/">お知らせ・スタッフブログ</a></li>
-                                <li class="nav__sub-item"><a href="../info/cate_2/">イベント情報</a></li>
-                            </ul>
-                                </li>
-                            </ul>
-                    </div>
+                        <ul class="nav nav__bottom">
+                            <li class="nav__item has-sub">
+                                <span>分譲地・土地情報</span>
+                                <ul class="nav__sub">
+                                    <li class="nav__sub-item"><a href="../land/">分譲地・土地情報</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item has-sub">
+                                <span>会社案内</span>
+                                <ul class="nav__sub">
+                                    <li class="nav__sub-item"><a href="../company/">会社概要・店舗紹介・スタッフ紹介</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item has-sub">
+                                <span>各種お問い合わせ</span>
+                                <ul class="nav__sub">
+                                    <li class="nav__sub-item"><a href="../document/">資料請求</a></li>
+                                    <li class="nav__sub-item"><a href="../event/">各種イベントへのご参加</a></li>
+                                    <li class="nav__sub-item"><a href="../contact/">無料相談・お問い合わせ</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__item has-sub">
+                                <span>各種お知らせ</span>
+                                <ul class="nav__sub">
+                            <li class="nav__sub-item"><a href="../info/cate_1/">お知らせ・スタッフブログ</a></li>
+                            <li class="nav__sub-item"><a href="../info/cate_2/">イベント情報</a></li>
+                        </ul>
+                            </li>
+                        </ul>
                 </div>
             </div>
+        </div>
 		<!-- end <header>-->
 		<main>
 			<div id="top_info" class="case-blog">
