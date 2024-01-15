@@ -230,7 +230,7 @@
                         <?php
 	if($text01_Value){
 ?>
-                        <p class="txt"><?php echo $text01_Value; ?></p>
+                        <div><?php echo $text01_Value; ?></div>
                         <?php
 	}
 ?>

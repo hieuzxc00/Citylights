@@ -135,7 +135,7 @@ $(window).bind('load', function() {
                     if (getImg) {
                         loading = $(getImg).attr("src");
                         break;
-                    }
+                    }   
                 }
                 if (loading == "") {
                     loading = "./images/udr-dummy.jpg";
